@@ -1,10 +1,10 @@
 # Formulário de Pesquisa
 
-![preview]
+![preview](./assets/127.0.0.1_5500_index.html.png)
 
-> Trilha Explorer
+> Conteúdo de Estudo
 
-Projeto feito em HTML e CSS para colocar em prática todo conteúdo adquirido em estudo.
+Projeto Formulário de Pesquisa para serviços de Consultoria em Recursos Humanos feito em HTML e CSS, colocando em prática todo conteúdo adquirido em estudo.
 
 [Clique aqui para acessar](https://danielemidio1988.github.io/Formulario-de-Pesquisa/)
 
@@ -17,3 +17,4 @@ Projeto feito em HTML e CSS para colocar em prática todo conteúdo adquirido em
 ## Contato
 
 emidio.daniel@hotmail.com
+[LinkedIn](https://www.linkedin.com/in/danielemidio1988/)
