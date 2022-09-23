@@ -8,37 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <header><h1>Nossa metodologia ajudou <span class="texto-destaque">mais de X.000 empresas</span> a superarem seus desafios na área de recursos humanos.</h1>
-    <h3>Preencha o formulário abaixo e um dos nossos consultores <span class="texto-destaque">entrará em contato com você</span>.</h3></header> -->
+    
     <main>
         <section class="secao-formulario">
 
         <article>
 
             <p class="titulo-formulario"><h1>Preencha suas informações</h1></p>
-
+            
+            <article class="grupo-input">
             <label for="nome">Nome:</label><br/>  
-            <input type="text" name="nome" id="id-nome" class="caixa-texto"><br/>
-            
+            <input type="text" name="nome" class="caixa-texto" placeholder="Digite seu nome completo" required><br/>
+            </article>
+            <article class="grupo-input">
             <label for="email">E-mail:</label><br/>
-            <input type="text" name="email" id="id-email" class="caixa-texto"><br/>
-            
+            <input type="email" name="email" class="caixa-texto" placeholder="Digite seu e-mail" required><br/>
+            </article>
+            <article class="grupo-input">
             <label for="empresa">Empresa(opcional):</label><br/>
-            <input type="text" name="empresa" id="id-empresa" class="caixa-texto"><br/>
+            <input type="text" name="empresa" class="caixa-texto" placeholder="Digite o nome da sua empresa"><br/>
+            </article>
             
+            <article class="grupo-input">
             <label for="urgencia">Quão urgente é resolver seus desafios em Recursos Humanos?</label><br/>
             <select name="lista-urgencia" class="caixa-texto">
                 <option value="urgencia1"></option>
                 <option value="urgencia2">É muito urgente! Preciso resolver o quanto antes.</option>
                 <option value="urgencia3">É muito importante, mas tenho outras demandas para resolver.</option>
                 <option value="urgencia4">Não é prioridade neste momento</option>
-            </select><br/>
+            </select><br/></article>
 
+            <article class="grupo-input" class="caixa-texto">
             <label for="recomendacao">Você recomendaria nossos serviços?</label><br/>
-            <input type="radio" name="recomendacao" value="Sim">Sim<br/>
-            <input type="radio" name="recomendacao" value="Não">Não<br/>
-            <input type="radio" name="recomendacao" value="Não">Talvez<br/>
+            <input type="radio" name="recomendacao" value="sim">Sim<br/>
+            <input type="radio" name="recomendacao" value="nao">Não<br/>
+            <input type="radio" name="recomendacao" value="talvez">Talvez<br/><br/>
+            </article>
 
+            <article class="grupo-input" class="caixa-texto">
             <label for="servicos">Quais são as maiores dores do seu setor de Recursos Humanos?</label><br/>
             <input type="checkbox" name="dores">Encontrar novos talentos para minha empresa<br/>
             <input type="checkbox" name="dores">Dificuldade de reter meus colaboradores<br/>
@@ -47,12 +54,14 @@
             <input type="checkbox" name="dores">Preciso reestruturar meu setor de RH<br/>
             <input type="checkbox" name="dores">Outro(s). Especifique:<br/>
             <input type="text" name="dores" class="caixa-texto"><br/>
+            </article>  
 
+            <article class="grupo-input">
             <label for="sugestao">Algum comentário ou informação adicional?</label><br/>
-            <input type="text" name="caixa-dores" id="id-comentario" value="Informe seu comentário aqui..." class="caixa-texto"><br/>
-
-            <button type="submit" name="submit" id="id-submit">Enviar</button>
-
+            <input type="text" name="caixa-dores" id="id-comentario" placeholder="Informe seu comentário aqui..." class="caixa-texto"><br/>
+             </article>
+            <button type="submit" name="submit" id="id-submit"><span>Enviar</span></button>
+         
         </article>
 
             
